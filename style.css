@@ -76,15 +76,20 @@
 /* Registration style End*/
 
 /*workshop style Start*/
+.workshop-pic,.workshop_card{
+    display: inline-block
+}
 .workshop_section{
-    height: 800px;
+    height: 500px;
     background-color: rgb(177, 171, 171);
 }
 .workshop_pic{
     float: right;
+    width: 48%;
 }
 .workshop_pic img{
     height: 800px;
+
     
 }
 .workshop_content h2{
@@ -100,6 +105,7 @@
 .workshop_card {
     margin-left: 100px;
     padding: 100px 0 30px;
+    width: 48%;
     
 }
 /* workshop style End*/
